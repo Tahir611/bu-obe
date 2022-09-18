@@ -7,7 +7,7 @@ import {
   BiTrash,
   BiPencil
 } from "react-icons/bi";
-import { useNavigate } from 'react-router';
+// import { useNavigate } from 'react-router';
 
 
 Modal.setAppElement("#root");
@@ -26,11 +26,11 @@ const Asssessment = () => {
     
       const [modalIsOpen, setModalIsOpen] = useState(false);
 
-      const navigate = useNavigate();
-      const handleClick = (e) =>{
-        e.preventDefault();
-        // navigate('/assessment')
-      }
+    //   const navigate = useNavigate();
+    //   const handleClick = (e) =>{
+    //     e.preventDefault();
+    //     // navigate('/assessment')
+    //   }
   return (
     <div>
         <div className="container mt-5">
@@ -464,7 +464,7 @@ const Asssessment = () => {
             <div className="col-6">PLO1_[WA1]Engieering Knowledge</div>
             <div className="col-6">CLO_1 Impleent the theoratical concepts <BiPencil className='ml-5'/> <BiTrash className='ml-2'/> </div>
           </div> */}
-          <button className='btn btn-primary btn-sm mt-2' onClick={handleClick}>Continue to fill up Student Information</button>
+          <button className='btn btn-primary btn-sm mt-2'>Continue to fill up Student Information</button>
           <button className='btn btn-primary btn-sm ml-2 mt-2'  onClick={() => {
               setModalIsOpen(true);
             }}>Add Assignment</button>
