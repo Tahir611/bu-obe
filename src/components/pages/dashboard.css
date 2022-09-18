@@ -1,0 +1,79 @@
+.add-course{
+    display: flex;
+    /* color: white; */
+    /* background-color: grey; */
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px 5px 0 0;
+}
+
+.add-course span{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.add-course button{
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.course-name{
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+
+.course-description{
+    text-align: center;
+    height: auto;
+    background-color: grey;
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+
+.center-btn{
+    text-align: center;
+}
+
+.border{
+    border: 1px solid rgb(179, 177, 177);
+}
+
+.br{
+    border-bottom: 1px solid rgb(179, 177, 177);
+    padding: 10px;
+}
+
+.bor-bottom{
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+
+
+
+/* Bootstrap 4 text input with search icon */
+
+.search-btn{
+    max-height: 38px;
+    margin-top: 8px;
+}
+
+.modal{
+    max-width: 20px;
+    max-height: 40px;
+}
+
+.student-form{
+    margin: 0;
+    padding: 0;
+}
+
+.student-label{
+    margin: 0;
+    padding: 0;
+}
+
+.student-input{
+    margin: 0;
+    padding: 0;
+}
