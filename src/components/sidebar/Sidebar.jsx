@@ -9,10 +9,10 @@ import {
   BiListPlus,
   BiGroup,
   BiMessageSquareDetail,
-  BiFile,
+  // BiFile,
   BiLogOut,
   BiKey,
-  BiListUl
+  // BiListUl
 } from "react-icons/bi";
 
 
@@ -40,11 +40,11 @@ const Sidebar = ({ children }) => {
       name: "dashboard",
       icon: <BiGridAlt />,
     },
-    {
-      path: "/courses",
-      name: "Courses",
-      icon: <BiListUl />,
-    },
+    // {
+    //   path: "/courses",
+    //   name: "Courses",
+    //   icon: <BiListUl />,
+    // },
     {
       path: "/completed",
       name: "Completed",
@@ -77,11 +77,11 @@ const Sidebar = ({ children }) => {
         icon: <BiMessageSquareDetail />,
       },
 
-    {
-      path: "/reports",
-      name: "Reports",
-      icon: <BiFile />,
-    },
+    // {
+    //   path: "/reports",
+    //   name: "Reports",
+    //   icon: <BiFile />,
+    // },
     {
       path: "/resetPassword",
       name: "Reset Password",

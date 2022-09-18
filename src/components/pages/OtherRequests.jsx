@@ -6,7 +6,7 @@ const OtherRequests = () => {
       <div className="container pt-5 mt-5">
         <div className="add-course">
           <span>Request List</span>
-          <button className="btn btn-primary btn-sm">Add New Request</button>
+          
         </div>
 
         <div className="container border pb-3">
@@ -41,7 +41,10 @@ const OtherRequests = () => {
 
           <div className="row">
             <div className="col">
-                no request yet
+              <div className="course-description py-3 mt-3">
+                <h5>No request yet</h5>
+                
+              </div>
             </div>
           </div>
 

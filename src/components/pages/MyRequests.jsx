@@ -12,7 +12,7 @@ const MyRequests = (e) => {
     <>
     <div className="container pt-5 mt-5">
         <div className="add-course">
-          <span>Course</span>
+          <span>Requests</span>
           <button className="btn btn-primary btn-sm" onClick={handleClick}>Create Request</button>
         </div>
 
@@ -34,7 +34,7 @@ const MyRequests = (e) => {
           <div className="row">
             <div className="col">
               <div className="course-description py-3 mt-3">
-                <h5>No course yet</h5>
+                <h5>No request yet</h5>
                 <div className="center-btn mt-3">
                   <button className="btn btn-primary" onClick={handleClick}>Create Request</button>
                 </div>
