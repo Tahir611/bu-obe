@@ -19,6 +19,7 @@ import AddNewCourse from './components/pages/AddNewCourse';
 import FirstPage from './components/pages/FirstPage';
 import Login from './components/pages/login/Login';
 import CourseInformation from './components/pages/CourseInformation';
+import Asssessment from './components/pages/Asssessment';
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
       <Route path='/createrequest' element={<CreateRequest/>}/>
       <Route path='/addnewcourse' element={<AddNewCourse/>}/>
       <Route path='/courseinformation' element={<CourseInformation/>}/>
+      <Route path='/assessment' element={<Asssessment/>}/>
       
 
     </Routes>

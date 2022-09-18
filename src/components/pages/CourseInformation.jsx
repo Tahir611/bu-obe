@@ -3,6 +3,11 @@ import "./dashboard.css";
 import './form.css';
 import { useState } from "react";
 import Modal from "react-modal";
+import {
+  BiTrash,
+  BiPencil
+} from "react-icons/bi";
+import { useNavigate } from 'react-router';
 
 
 Modal.setAppElement("#root");
@@ -20,6 +25,12 @@ const CourseInformation = () => {
       };
     
       const [modalIsOpen, setModalIsOpen] = useState(false);
+
+      const navigate = useNavigate();
+      const handleClick = (e) =>{
+        e.preventDefault();
+        navigate('/assessment')
+      }
   return (
     <div>
         <div className="container mt-5">
@@ -161,7 +172,7 @@ const CourseInformation = () => {
             <div className="col">no request yet</div>
           </div> */}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col">
               <div className="course-description py-3 mt-3">
                 <h5>Create New Map</h5>
@@ -172,9 +183,19 @@ const CourseInformation = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <button className='btn btn-secondary btn-sm mt-2'>Continue to fill Assessment Information</button>
+          
+
+          <div className='row py-2 course-name'>
+            <div className="col-6">PLO1_[WA1]Engieering Knowledge</div>
+            <div className="col-6">CLO_1 Impleent the theoratical concepts <BiPencil className='ml-5'/> <BiTrash className='ml-3'/> </div>
+          </div>
+          <div className='row py-2 course-name'>
+            <div className="col-6">PLO1_[WA1]Engieering Knowledge</div>
+            <div className="col-6">CLO_1 Impleent the theoratical concepts <BiPencil className='ml-5'/> <BiTrash className='ml-3'/> </div>
+          </div>
+          <button className='btn btn-primary btn-sm mt-2' onClick={handleClick}>Continue to fill Assessment Information</button>
         </div>
       </div>
 
